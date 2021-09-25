@@ -58,4 +58,3 @@ def divided_by(x): return lambda y: y//x
 def plus(x): return lambda y: y + x
 def minus(x): return lambda y: y - x
 
-seven(times(five()))
