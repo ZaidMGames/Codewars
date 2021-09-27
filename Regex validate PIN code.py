@@ -12,10 +12,9 @@ def validate_pin(pin):
             return True
         elif len(pin) == 6:
             return True
-        elif not pin.isdigit():
-            return False
         else:
             return False
     else:
         return False
    
+   validate_pin("2233")
