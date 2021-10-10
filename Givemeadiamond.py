@@ -34,3 +34,5 @@ def diamond(n):
         complete += ' '*int((n-len(diamond)) / 2) + diamond + '\n'
     return complete
 
+diamond(5);
+
